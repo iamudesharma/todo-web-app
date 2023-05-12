@@ -11,6 +11,8 @@ interface TodoModel{
 }
 
 export  default async function Home() {
+  
+  
 
 var data =await axios.get('https://jsonplaceholder.typicode.com/todos');
 
